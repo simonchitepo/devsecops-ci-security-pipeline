@@ -1,0 +1,10 @@
+title = "gitleaks config"
+
+[extend]
+useDefault = true
+
+# Add path-based allowlist for test fixtures if needed later
+[allowlist]
+paths = [
+  '''docs/screenshots/.*'''
+]
